@@ -214,12 +214,17 @@ footer {
 
     .products {
         width: 500px;
+        padding: 0;
     }
 
     .products-grid {
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, auto);
         row-gap: 2rem;
+    }
+
+    .products h2 {
+        padding-inline: 0;
     }
 
     #cars {
@@ -261,6 +266,12 @@ footer {
     .products {
         width: 320px;
         padding: 0;
+    }
+
+    .products h2 {
+        font-size: 1.25rem;
+        padding: 0;
+        padding-bottom: 0.5rem;
     }
 
     .products-grid {
